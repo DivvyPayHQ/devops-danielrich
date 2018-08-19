@@ -9,7 +9,7 @@ Use
 ---
 Once the docker container is running, it will act as an API endpoint.
 Try hitting the following URL's once your container is running
-- `http://127.0.0.1/ship-people`
+- `http://127.0.0.1/ship-pilots`
 - `http://127.0.0.1/films`
 
 Installation Instructions
@@ -25,7 +25,7 @@ Installation Instructions
 CONGRADULATIONS! Your docker container is now installed and running on localhost, port 80.
 If you wish to change the port, simply change the external port in the docker run command.
 - Example:`-p 8005:80`
-Try it out in your web browser by going to `http://127.0.0.1/ship-people`
+Try it out in your web browser by going to `http://127.0.0.1/ship-pilots`
 
 Additional Info
 ---
