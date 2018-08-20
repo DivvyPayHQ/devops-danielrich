@@ -7,6 +7,7 @@ NOTE: Main Dockerfile uses CentOS, and image ends up being over 600MB. Use the A
 
 Use
 ---
+Update: api is currently deployed to https://weerj5bs2e.execute-api.us-west-2.amazonaws.com/api/ and is running in a Lambda function. Feel free to test from there.
 Once the docker container is running, it will act as an API endpoint.
 Try hitting the following URL's once your container is running
 - `http://127.0.0.1/ship-pilots`
